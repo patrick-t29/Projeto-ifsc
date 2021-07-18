@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <link rel="stylesheet" href="_css/form.css">
+    <script language="JavaScript" src="_javascript/funcoes.js"></script>
+</head>
+
+
+
+<body>
+<div id="interface">
+    <header id="cabecalho">
+        <hgroup>
+            <h1>IFSC Notícias</h1>
+            <h2>Saiba tudo sobre o IFSC</h2>
+        </hgroup>
+
+        <img id="icone" src="_imagens/logo-if-peq.png"/>
+
+        <nav id="menu">
+            <h1>Menu Principal</h1>
+            <ul>
+                <li onmouseover="mudaFoto('_imagens/home-ifsc-peq.png')" onmouseout="mudaFoto('_imagens/imagem-fale-conosco-peq.png')"><a href="index.html">Home</a></li>
+                <li onmouseover="mudaFoto('_imagens/historia-ifsc-peq.png')" onmouseout="mudaFoto('_imagens/imagem-fale-conosco-peq.png')"><a href="hist.html">História</a></li>
+                <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/imagem-fale-conosco-peq.png')"><a href="fotos.html">Fotos</a></li>
+                <li onmouseover="mudaFoto('_imagens/imagem-fale-conosco-peq.png')" onmouseout="mudaFoto('_imagens/imagem-fale-conosco-peq.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h3><a href="index.html">Institucional</a> > <a href="faleconosco.html">Fale Conosco</a></h3>
+                    <h1>Tire suas Dúvidas</h1>
+                    <h2>por Patrick Trindade</h2>
+                    <h3 class="direita">Atualizado em 10/Julho/2021</h3>
+                </hgroup>
+            </header>
+
+            <form method="post" id="fcontato" action="mailto: assessoria.canoinhas@ifsc.edu.br">
+                <fieldset>
+                    <legend id="user">Identificação</legend>
+                    <p><label for="cnome">Nome:</label><input type="text" name="tnome" id="cnome" size="40" maxlength="30" placeholder="Nome Completo"/></p>
+                    <p><label for="cmail">E-mail:</label><input type="email" name="tmail" id="cmail" size="40" maxlength="30" placeholder="Seu E-mail"/></p>
+                    <p><label for="csenha">Senha:</label><input type="password" name="tsenha" id="csenha" size="30" maxlength="10" placeholder="Digite a senha"/></p>
+                    <fieldset id="sex"><legend>Sexo</legend>
+                        <input type="radio" name="tsex" id="cmasc"/><label for="cmasc">Masculino</label><br>
+                        <input type="radio" name="tsex" id="cfem"/><label for="cfem">Feminino</label>
+                    </fieldset>
+                    <p>Data de Nascimento: <input type="date" name="tnasc" id="cnasc"></p>
+                </fieldset>
+
+                <fieldset>
+                    <legend id="address">Vamos encontrar o Campus mais Próximo de Você!</legend>
+                    <p><label for="clog">Logradouro:</label> <input type="text" name="tlog" id="clog" size="40" maxlength="40" placeholder="Rua, Av, Trav..."/></p>
+                    <p><label for="cnumb">Número:</label> <input type="number" name="tnumb" id="cnumb" min="0" max="99999"/></p>
+                    <p><label for="cest">Estado:</label>
+                        <select id="cest">
+                            <option value="PR"> Paraná </option>
+                            <option value="SC" selected> Santa Catarina</option>
+                            <option value="RS"> Rio Grande do Sul </option>
+                        </select>
+                    </p>
+                    <p><label for="ccid">Cidade:</label> <input type="text" id="ccid" maxlength="40" size="20" placeholder="Sua Cidade"/></p>
+                </fieldset>
+
+                <fieldset>
+                    <legend id="message">Fale Conosco!</legend>
+                    <p><label for="cass">Assunto:</label> <input type="text" name="tass" id="cass" size="40" maxlength="30" placeholder="Assunto"/></p>
+                    <p><label for="cmsg">Mensagem:</label>
+                    <textarea name="cmsg" id="cmsg" cols="45" rows="5" placeholder="Digite sua mensagem"></textarea></p>
+                </fieldset>
+
+                <input type="image" name="tsend" src="_imagens/botao-send.png">
+            </form>
+
+        </article>
+
+    <footer id="rodape">
+        <p>Copyright &copy; 2021 - by Patrick Trindade <br/>
+            <a href="https://www.facebook.com/" target="_blank"> Facebook </a>| <a href="https://twitter.com/" target="_blank"> Twitter </a></p>
+    </footer>
+</div>
+</body>
+</html>

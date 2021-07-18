@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+section#conteudo{
+    width: 1000px;
+    margin: auto;
+}
+
+iframe#frame-campus{
+    width: 350px;
+    height: 350px;
+    border: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    overflow: hidden;
+}
+iframe#frame-campus::-webkit-scrollbar {
+    display: none;
+}

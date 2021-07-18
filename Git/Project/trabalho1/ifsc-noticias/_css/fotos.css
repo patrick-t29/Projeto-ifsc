@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+ul#albumfotos{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#albumfotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #414e0b;
+    background-color: #D9F38CFF;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.4);
+    -webkit-transition: all 0.5s ease-in;
+}
+
+ul#albumfotos li span{
+    opacity: 0;
+    color: #D9F38CFF;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+ul#albumfotos li:hover{
+    -webkit-transform: scale(1.5);
+}
+
+ul#albumfotos li:hover span{
+    opacity: 1;
+}
+
+ul#albumfotos li#foto1{
+    background: url("../_imagens/ifsc-fpolis.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto1:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto2{
+    background: url("../_imagens/ifsc-sao-jose.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto2:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto3{
+    background: url("../_imagens/ifsc-fpolis-continente.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto3:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto4{
+    background: url("../_imagens/ifsc-palhoca-bilingue.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto4:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto5{
+    background: url("../_imagens/ifsc-tubarao.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto5:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto6 {
+    background: url("../_imagens/ifsc-criciuma.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto6:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto7 {
+    background: url("../_imagens/ifsc-ararangua.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto7:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto8 {
+    background: url("../_imagens/ifsc-gaspar.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto8:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto9 {
+    background: url("../_imagens/ifsc-itajai.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 500px;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto9:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto10 {
+    background: url("../_imagens/ifsc-canoinhas.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto10:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto11 {
+    background: url("../_imagens/ifsc-joinville.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto11:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto12 {
+    background: url("../_imagens/ifsc-jaragua-centro.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto12:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto13 {
+    background: url("../_imagens/ifsc-jaragua-rau.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto13:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto14 {
+    background: url("../_imagens/ifsc-lages.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto14:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto15 {
+    background: url("../_imagens/ifsc-urupema.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto15:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto16 {
+    background: url("../_imagens/ifsc-chapeco.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto16:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto17 {
+    background: url("../_imagens/ifsc-sao-carlos.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto17:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto18 {
+    background: url("../_imagens/ifsc-xanxere.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto18:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto19 {
+    background: url("../_imagens/ifsc-sao-lourenco-oeste.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto19:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto20 {
+    background: url("../_imagens/ifsc-sao-miguel-oeste.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto20:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto21 {
+    background: url("../_imagens/ifsc-cacador.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto21:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto22 {
+    background: url("../_imagens/ifsc-garopaba.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    background-color: #ffffff;
+}
+ul#albumfotos li#foto22:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}

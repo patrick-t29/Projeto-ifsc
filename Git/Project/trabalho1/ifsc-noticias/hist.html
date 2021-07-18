@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IFSC Notícias - História</title>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <link rel="stylesheet" href="_css/hist.css"/>
+</head>
+
+<script language="JavaScript" src="_javascript/funcoes.js"></script>
+
+<body>
+<div id="interface">
+    <header id="cabecalho">
+        <hgroup>
+            <h1>IFSC Notícias</h1>
+            <h2>Saiba tudo sobre o IFSC</h2>
+        </hgroup>
+
+        <img id="icone" src="_imagens/logo-if-peq.png"/>
+
+        <nav id="menu">
+            <h1>Menu Principal</h1>
+            <ul>
+                <li onmouseover="mudaFoto('_imagens/home-ifsc-peq.png')" onmouseout="mudaFoto('_imagens/historia-ifsc-peq.png')"><a href="index.html">Home</a></li>
+                <li onmouseover="mudaFoto('_imagens/historia-ifsc-peq.png')" onmouseout="mudaFoto('_imagens/historia-ifsc-peq.png')"><a href="hist.html">História</a></li>
+                <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/historia-ifsc-peq.png')"><a href="fotos.html">Fotos</a></li>
+                <li onmouseover="mudaFoto('_imagens/imagem-fale-conosco-peq.png')" onmouseout="mudaFoto('_imagens/historia-ifsc-peq.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="corpo-int">
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h3><a href="index.html">Institucional</a> > <a href="hist.html">Historia</a></h3>
+                    <h1>Um pouco de Nossa História</h1>
+                    <h2>por Patrick Trindade</h2>
+                    <h3 class="direita">Atualizado em 10/Julho/2021</h3>
+                </hgroup>
+            </header>
+
+            <h2>Onde Tudo Começou</h2>
+            <p>O IFSC foi criado em Florianópolis por meio do decreto nº 7.566, de 23 de setembro de 1909, pelo
+                presidente Nilo Peçanha, como Escola de Aprendizes Artífices de Santa Catarina. Seu objetivo era
+                proporcionar formação profissional aos filhos de classes socioeconômicas menos favorecidas. A primeira
+                sede foi instalada em 1º de setembro de 1910, em um prédio cedido pelo governo do Estado, na Rua
+                Almirante Alvim, no Centro da capital catarinense.</p>
+            <p>Além do ensino primário, a instituição oferecia formação em desenho, tipografia, encadernação e pautação,
+                carpintaria da ribeira, escultura e mecânica (que compreendia ferraria e serralheria).</p>
+            <p>Assim, a Escola de Aprendizes Artífices atuava em consonância com os avanços tecnológicos de seu tempo,
+                atendendo às demandas do setor produtivo e da sociedade da época. Havia necessidade de produção de
+                comunicação por meio impresso e soluções em transporte, que consistia basicamente em bondes puxados a
+                burro e embarcações que transportavam carga do continente para abastecer a ilha.</p>
+
+            <figure class="foto-legenda">
+                <img src="_imagens/predio-ifsc-antigo.jpg">
+                <figcaption>
+                    <h3>Primeiro Prédio do IFSC</h3>
+                    <p>Prédio da Escola de Aprendizes Artífices de Santa Catarina na rua Almirante Alvim, 17 – 1910.</p>
+                </figcaption>
+            </figure>
+        </article>
+    </section>
+
+    <section id="conteudo">
+
+        <h2 id="second">E como estamos hoje</h2>
+
+        <img id="mapa" src="_imagens/mapa-sc-completo.png"/>
+        <iframe src="campus.html" name="janela" id="frame-campus"></iframe>
+    </section>
+
+            <footer id="rodape">
+                <p>Copyright &copy; 2021 - by Patrick Trindade <br/>
+                    <a href="https://www.facebook.com/" target="_blank"> Facebook </a>| <a href="https://twitter.com/" target="_blank"> Twitter </a></p>
+            </footer>
+</div>
+</body>
+</html>
